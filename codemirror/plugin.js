@@ -776,6 +776,7 @@
                     
                         if (cm) {
                             cm.save();
+                            editor.editable().fire('input');
                         }
                     }, 300);
                 });
